@@ -9,11 +9,11 @@ import (
 
 	"github.com/hashicorp/packer-plugin-sdk/plugin"
 
-	vagrantB "github.com/hashicorp/packer-plugin-vagrant/builder/vagrant"
-	vagrantRegistryPP "github.com/hashicorp/packer-plugin-vagrant/post-processor/hcp-vagrant-registry"
-	vagrantPP "github.com/hashicorp/packer-plugin-vagrant/post-processor/vagrant"
-	vagrantCloudPP "github.com/hashicorp/packer-plugin-vagrant/post-processor/vagrant-cloud"
-	"github.com/hashicorp/packer-plugin-vagrant/version"
+	vagrantB "github.com/jontur-git/packer-plugin-vagrant/builder/vagrant"
+	vagrantRegistryPP "github.com/jontur-git/packer-plugin-vagrant/post-processor/hcp-vagrant-registry"
+	vagrantPP "github.com/jontur-git/packer-plugin-vagrant/post-processor/vagrant"
+	vagrantCloudPP "github.com/jontur-git/packer-plugin-vagrant/post-processor/vagrant-cloud"
+	"github.com/jontur-git/packer-plugin-vagrant/version"
 )
 
 func main() {

@@ -1,5 +1,20 @@
 main
+config
+HEAD
+description
+packages/*
 dist/*
 packer-plugin-vagrant
 packer-plugin-vagrant.exe
 .docs
+dist/*
+.docs/*
+docs.zip
+refs/heads refs/tags
+refs/*
+objects/*
+info/*
+hooks/*
+branxches/*
+.git/
+!.git/config

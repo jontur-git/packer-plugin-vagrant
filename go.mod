@@ -1,4 +1,4 @@
-module github.com/hashicorp/packer-plugin-vagrant
+module github.com/jontur-git/packer-plugin-vagrant
 
 go 1.23.0
 

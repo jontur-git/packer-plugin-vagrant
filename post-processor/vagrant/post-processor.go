@@ -40,12 +40,16 @@ var builtins = map[string]string{
 	"packer.parallels":                    "parallels",
 	"MSOpenTech.hyperv":                   "hyperv",
 	"transcend.qemu":                      "libvirt",
+	"packer.libvirt":                      "libvirt",
+	"libvirt":	                       "libvirt",
 	"ustream.lxc":                         "lxc",
 	"Azure.ResourceManagement.VMImage":    "azure",
 	"packer.post-processor.docker-import": "docker",
 	"packer.post-processor.docker-tag":    "docker",
 	"packer.post-processor.docker-push":   "docker",
 	"packer.file":                         "file",
+	"packer.post-processor.compress":      "file",
+	"packer.post-processor.artifice":      "file",
 }
 
 var vagrantArchMap = map[string]string{
